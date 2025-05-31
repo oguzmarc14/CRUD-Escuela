@@ -1,3 +1,5 @@
+# TODO: use snake_case in all method names nad variables
+
 #StudentManager.py
 
 from Person import Person
@@ -25,8 +27,10 @@ class StudentManager:
                 self.students.remove(sharedId)
 
     def showStudent(self, student):
+        # create variable message to split code in multiple lines
         print(f"ID: {student.id} Name {student.name} Last Name {student.lastName} Email {student.email} Ausence {student.ausence}")
 
+# delete this when create terminal ui
 gestor = StudentManager()
 est1 = gestor.createStudent(1,"marco","antonio","oguzmarc14@gmail.com",5)
 gestor.showStudent(est1)

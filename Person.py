@@ -6,5 +6,6 @@ class Person:
         self.name = name
         self.lastName = lastName
 
+    # translate method name to EN
     def mostrar(self):
         print(f"ID: {self.id} Name: {self.name} Last name: {self.lastName}")
